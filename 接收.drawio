@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-11T12:05:24.943Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.60" etag="zawvLgW7y6k7L9Tu7Pwg" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-11T12:12:58.393Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.60" etag="13yoCki-k7IB52GvXH5p" version="22.0.4" type="github">
   <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
     <mxGraphModel dx="2088" dy="941" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -55,11 +55,10 @@
         <mxCell id="_pvaLfHRy_cF2C6sSua_-4" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="_pvaLfHRy_cF2C6sSua_-3" vertex="1">
           <mxGeometry x="45.5" y="630.17" width="10" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="_pvaLfHRy_cF2C6sSua_-5" value="访问接收方环境，获取token" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;" parent="1" edge="1" source="aM9ryv3xv72pqoxQDRHE-2">
+        <mxCell id="_pvaLfHRy_cF2C6sSua_-5" value="访问接收方环境，获取token" style="html=1;verticalAlign=bottom;endArrow=block;elbow=vertical;rounded=0;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;" parent="1" edge="1" source="aM9ryv3xv72pqoxQDRHE-2">
           <mxGeometry x="0.1018" y="3" relative="1" as="geometry">
             <mxPoint x="260.5" y="800.17" as="sourcePoint" />
-            <Array as="points" />
-            <mxPoint x="830.5" y="800.17" as="targetPoint" />
+            <mxPoint x="835" y="800" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -79,29 +78,10 @@
             <mxPoint x="255" y="264" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_pvaLfHRy_cF2C6sSua_-72" value="同步状态" style="html=1;verticalAlign=bottom;endArrow=block;elbow=vertical;rounded=0;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;" parent="1" source="_pvaLfHRy_cF2C6sSua_-73" edge="1">
-          <mxGeometry x="NaN" y="386" relative="1" as="geometry">
-            <mxPoint x="270.5" y="845.17" as="sourcePoint" />
-            <mxPoint x="835.5" y="845.65" as="targetPoint" />
-            <mxPoint x="-385" y="4" as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="_pvaLfHRy_cF2C6sSua_-74" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;elbow=vertical;rounded=0;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="90" y="910" as="targetPoint" />
             <mxPoint x="835.5" y="910" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="50-FXwSxn8h8CmQYyutF-1" value="" style="html=1;verticalAlign=bottom;endArrow=block;elbow=vertical;rounded=0;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;" parent="1" target="_pvaLfHRy_cF2C6sSua_-73" edge="1">
-          <mxGeometry x="-0.0796" relative="1" as="geometry">
-            <mxPoint x="90" y="850" as="sourcePoint" />
-            <mxPoint x="835.5" y="845.65" as="targetPoint" />
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ubUJuNJmW0G-JIKS36Ns-15" value="同步任务状态" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="50-FXwSxn8h8CmQYyutF-1">
-          <mxGeometry x="0.1277" y="-1" relative="1" as="geometry">
-            <mxPoint x="-54" y="-11" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="_pvaLfHRy_cF2C6sSua_-73" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
@@ -293,6 +273,13 @@
         </mxCell>
         <mxCell id="_pvaLfHRy_cF2C6sSua_-58" value="&lt;pre&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 11px;&quot;&gt;&lt;sub style=&quot;font-weight: normal;&quot;&gt;&lt;i&gt;loop 数据包&lt;/i&gt;&lt;/sub&gt;&lt;/font&gt;&lt;/pre&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;fontColor=#393C56;" parent="1" vertex="1">
           <mxGeometry x="426" y="395" width="30" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="ubUJuNJmW0G-JIKS36Ns-20" value="访问接收方环境，获取token" style="html=1;verticalAlign=bottom;endArrow=block;elbow=vertical;rounded=0;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;" edge="1" parent="1">
+          <mxGeometry x="0.1018" y="3" relative="1" as="geometry">
+            <mxPoint x="84" y="854" as="sourcePoint" />
+            <mxPoint x="835.5" y="850" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
